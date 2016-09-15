@@ -11,7 +11,7 @@ Imports: jsonlite,
          RCurl
 Description: R interface to access the web services of the ICES (International
              Council for the Exploration of the Sea) stock list
-             database <http://ices.dk/marine-data/tools/Pages/WebServices.aspx>.
+             database <http://stocklist.ices.dk/Services/>.
 License: GPL (>= 2)
-URL: http://ices.dk/marine-data/tools/Pages/WebServices.aspx
+URL: http://stocklist.ices.dk/Services/
 RoxygenNote: 5.0.1

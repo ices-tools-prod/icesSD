@@ -15,7 +15,7 @@
 #'
 #' @references
 #' ICES SLD web services:
-#' \url{http://ices.dk/marine-data/tools/Pages/WebServices.aspx}.
+#' \url{http://stocklist.ices.dk/Services/}.
 #'
 #' ICES software applications:
 #' \url{http://ices.dk/marine-data/tools/Pages/Software.aspx}.
