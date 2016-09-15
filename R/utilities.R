@@ -16,10 +16,7 @@ curlSLD <- function(url) {
 parseSLD <- function(url) {
   # parse the json text string suppplied by the SLD webservice
   # returning a dataframe
-  x <- fromJSON(url, simplifyDataFrame = TRUE)
-  x <- data.frame(x[2], stringsAsFactors = FALSE)
-
-  simplify(x)
+  fromJSON(url)$value
 }
 
 
