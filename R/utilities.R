@@ -1,3 +1,16 @@
+#' @importFrom RCurl basicTextGatherer
+#' @importFrom RCurl curlPerform
+curlSLD <- function(url) {
+  # read only XML table and return as string
+  reader <- basicTextGatherer()
+  curlPerform(url = url,
+              httpheader = c('Content-Type' = "text/xml; charset=utf-8", SOAPAction=""),
+              writefunction = reader$update,
+              verbose = FALSE)
+  # return
+  reader$value()
+}
+
 
 #' @importFrom jsonlite fromJSON
 parseSLD <- function(url) {
