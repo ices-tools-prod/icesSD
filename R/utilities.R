@@ -13,6 +13,9 @@ curlSLD <- function(url) {
 
 
 #' @importFrom jsonlite fromJSON
+#' @importFrom curl new_handle
+#' @importFrom curl handle_setheaders
+#' @importFrom curl curl
 parseSLD <- function(url) {
   # parse the json text string suppplied by the SLD webservice
   # returning a dataframe

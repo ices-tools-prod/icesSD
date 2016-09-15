@@ -3,4 +3,7 @@
 export(getSLD)
 importFrom(RCurl,basicTextGatherer)
 importFrom(RCurl,curlPerform)
+importFrom(curl,curl)
+importFrom(curl,handle_setheaders)
+importFrom(curl,new_handle)
 importFrom(jsonlite,fromJSON)
