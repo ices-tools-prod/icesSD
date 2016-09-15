@@ -1,50 +1,21 @@
-#' @importFrom RCurl basicTextGatherer
-#' @importFrom RCurl curlPerform
-curlDatras <- function(url) {
-  # read only XML table and return as string
-  reader <- basicTextGatherer()
-  curlPerform(url = url,
-              httpheader = c('Content-Type' = "text/xml; charset=utf-8", SOAPAction=""),
-              writefunction = reader$update,
-              verbose = FALSE)
-  # return
-  reader$value()
-}
 
-
-#' @importFrom XML xmlParse
-#' @importFrom XML xmlToDataFrame
-#' @importFrom utils capture.output
-parseDatras <- function(x) {
-  # parse the xml text string suppplied by the Datras webservice
+#' @importFrom jsonlite fromJSON
+parseSLD <- function(url) {
+  # parse the json text string suppplied by the SLD webservice
   # returning a dataframe
-  capture.output(x <- xmlParse(x))
-  # capture.output is used to suppress the output message from xmlns:
-  #   "xmlns: URI ices.dk.local/DATRAS is not absolute"
+  x <- fromJSON(url, simplifyDataFrame = TRUE)
+  x <- data.frame(x[2], stringsAsFactors = FALSE)
 
-  # convert xml to data frame, with appropriate column types
-  x <- simplify(xmlToDataFrame(x, stringsAsFactors = FALSE))
-
-  # return data frame now if empty
-  if (nrow(x) == 0) return(x)
-
-  # clean trailing white space from text columns
-  charcol <- which(sapply(x, is.character))
-  x[charcol] <- lapply(x[charcol], trimws)
-
-  # DATRAS uses -9 and "" to indicate NA
-  x[x == -9] <- NA
-  x[x == ""] <- NA
-  simplify(x)  # simplify again, as ""->NA may enable us to coerce char->num/int
+  simplify(x)
 }
 
 
-checkDatrasWebserviceOK <- function() {
+checkSLDWebserviceOK <- function() {
   # return TRUE if webservice server is good, FALSE otherwise
-  out <- curlDatras(url = "https://datras.ices.dk/WebServices/DATRASWebService.asmx")
+  out <- curlSLD(url = "http://admin.ices.dk/StockListServices/odata")
 
   # Check the server is not down by insepcting the XML response for internal server error message.
-  if (grepl("Internal Server Error", out)) {
+  if (grepl("404 - File or directory not found", out)) {
     warning("Web service failure: the server seems to be down, please try again later.")
     FALSE
   } else {
