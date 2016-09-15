@@ -16,7 +16,6 @@ Get haul data such as position, depth, sampling method, etc.
 }
 \examples{
 sldata <- getSLD()
-str(sldata)
 
 }
 

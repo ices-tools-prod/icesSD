@@ -8,7 +8,6 @@
 #'
 #' @examples
 #' sldata <- getSLD()
-#' str(sldata)
 #'
 #' @export
 
