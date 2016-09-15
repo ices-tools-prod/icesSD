@@ -10,7 +10,7 @@
 icesSLD
 ======
 
-icesSLD implements R functions that access the [web services](https://datras.ices.dk/WebServices/Webservices.aspx) of the [ICES (International Council for the Exploration of the Sea)](http://www.ices.dk/Pages/default.aspx) [DATRAS trawl database](http://ices.dk/marine-data/data-portals/Pages/DATRAS.aspx).
+icesSLD implements R functions that access the [web services](https://datras.ices.dk/WebServices/Webservices.aspx) of the [ICES (International Council for the Exploration of the Sea)](http://www.ices.dk/Pages/default.aspx) [Stock List database](http://ices.dk/marine-data/tools/Pages/WebServices.aspx).
 
 icesSLD is implemented as an [R](https://www.r-project.org) package and available on [CRAN](https://cran.r-project.org/package=icesSLD).
 
@@ -36,9 +36,9 @@ library(icesSLD)
 References
 ----------
 
-ICES DATRAS web services:
+ICES web services:
 
-[https://datras.ices.dk/WebServices/Webservices.aspx](https://datras.ices.dk/WebServices/Webservices.aspx).
+[http://ices.dk/marine-data/tools/Pages/WebServices.aspx](http://ices.dk/marine-data/tools/Pages/WebServices.aspx).
 
 ICES software applications:
 
