@@ -7,7 +7,7 @@
 \title{Stock List Database Web Services}
 \description{
 R interface to access the web services of the ICES (International
-Council for the Exploration of the Sea) Stock List database.
+Council for the Exploration of the Sea) Stock List Database.
 }
 \details{
 \emph{Get dataset:}

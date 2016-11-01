@@ -10,7 +10,6 @@ Imports: curl,
          RCurl
 Suggests: testthat
 Description: R interface to access the web services of the ICES (International
-             Council for the Exploration of the Sea) stock list
-             database <http://stocklist.ices.dk/Services/>.
+             Council for the Exploration of the Sea) Stock List Database.
 License: GPL (>= 2)
 RoxygenNote: 5.0.1
