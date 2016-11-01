@@ -43,7 +43,7 @@ References
 
 ICES Stock List Database:
 
-[http://sld.ices.dk/](http://sld.ices.dk/).
+[http://sld.ices.dk/](http://sld.ices.dk/)
 
 Development
 -----------

@@ -19,7 +19,6 @@ Council for the Exploration of the Sea) Stock List Database.
 Colin Millar, Scott Large, and Arni Magnusson.
 }
 \references{
-ICES Stock List Database:
-\url{http://sld.ices.dk/}.
+ICES Stock List Database: \url{http://sld.ices.dk/}.
 }
 
