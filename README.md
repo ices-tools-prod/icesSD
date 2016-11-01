@@ -41,13 +41,9 @@ library(icesSLD)
 References
 ----------
 
-ICES Stock List Database web services:
+ICES Stock List Database:
 
-[http://stocklist.ices.dk/Services/](http://stocklist.ices.dk/Services/).
-
-ICES software applications:
-
-[http://ices.dk/marine-data/tools/Pages/Software.aspx](http://ices.dk/marine-data/tools/Pages/Software.aspx).
+[http://sld.ices.dk/](http://sld.ices.dk/).
 
 Development
 -----------

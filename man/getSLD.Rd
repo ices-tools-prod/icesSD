@@ -12,7 +12,7 @@ A data frame.
 \code{\link{icesSLD-package}} gives an overview of the package.
 }
 \description{
-Get haul data such as position, depth, sampling method, etc.
+Get stock list data such as stock code, expert group, assessment type, etc.
 }
 \examples{
 sldata <- getSLD()

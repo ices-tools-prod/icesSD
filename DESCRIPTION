@@ -13,5 +13,4 @@ Description: R interface to access the web services of the ICES (International
              Council for the Exploration of the Sea) stock list
              database <http://stocklist.ices.dk/Services/>.
 License: GPL (>= 2)
-URL: http://stocklist.ices.dk/Services/
 RoxygenNote: 5.0.1

@@ -7,7 +7,6 @@ curlSLD <- function(url) {
               httpheader = c('Content-Type' = "text/xml; charset=utf-8", SOAPAction=""),
               writefunction = reader$update,
               verbose = FALSE)
-  # return
   reader$value()
 }
 
@@ -17,17 +16,16 @@ curlSLD <- function(url) {
 #' @importFrom curl handle_setheaders
 #' @importFrom curl curl
 parseSLD <- function(url) {
-  # parse the json text string suppplied by the SLD webservice
-  # returning a dataframe
+  # parse JSON string to data frame
   fromJSON(url)$value
 }
 
 
 checkSLDWebserviceOK <- function() {
-  # return TRUE if webservice server is good, FALSE otherwise
+  # return TRUE if web service is active, FALSE otherwise
   out <- curlSLD(url = "http://admin.ices.dk/StockListServices/odata")
 
-  # Check the server is not down by insepcting the XML response for internal server error message.
+  # check server is not down by inspecting XML response for internal server error message
   if (grepl("404 - File or directory not found", out)) {
     warning("Web service failure: the server seems to be down, please try again later.")
     FALSE

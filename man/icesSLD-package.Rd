@@ -9,14 +9,17 @@
 R interface to access the web services of the ICES (International
 Council for the Exploration of the Sea) Stock List database.
 }
+\details{
+\emph{Get dataset:}
+\tabular{ll}{
+  \code{\link{getSLD}} \tab stock list
+}
+}
 \author{
 Colin Millar, Scott Large, and Arni Magnusson.
 }
 \references{
-ICES SLD web services:
-\url{http://stocklist.ices.dk/Services/}.
-
-ICES software applications:
-\url{http://ices.dk/marine-data/tools/Pages/Software.aspx}.
+ICES Stock List Database:
+\url{http://sld.ices.dk/}.
 }
 

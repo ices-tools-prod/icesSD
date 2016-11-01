@@ -1,6 +1,6 @@
 #' Get Stock List Data
 #'
-#' Get haul data such as position, depth, sampling method, etc.
+#' Get stock list data such as stock code, expert group, assessment type, etc.
 #'
 #' @return A data frame.
 #'
@@ -12,18 +12,10 @@
 #' @export
 
 getSLD <- function() {
-  # checks?
-
   url <- "http://stocklist.ices.dk/services/odata4/StockListDWs4"
 
-  # read and parse jsonlite from API
+  # read JSON and parse to data frame
   out <- parseSLD(url)
 
-  # return
   out
 }
-
-
-
-
-
