@@ -8,8 +8,7 @@ Authors@R: c(person("Colin", "Millar", role="aut"),
 Imports: curl,
          jsonlite,
          RCurl
-Suggests: knitr,
-          testthat
+Suggests: testthat
 Description: R interface to access the web services of the ICES (International
              Council for the Exploration of the Sea) stock list
              database <http://stocklist.ices.dk/Services/>.
