@@ -5,11 +5,11 @@ Title: Stock List Database Web Services
 Authors@R: c(person("Colin", "Millar", role="aut"),
              person("Scott", "Large", role=c("aut","cre"), email="scott.large@ices.dk"),
              person("Arni", "Magnusson", role="aut"))
+Imports: curl,
+         jsonlite,
+         RCurl
 Suggests: knitr,
           testthat
-Imports: jsonlite,
-         RCurl,
-         curl
 Description: R interface to access the web services of the ICES (International
              Council for the Exploration of the Sea) stock list
              database <http://stocklist.ices.dk/Services/>.
