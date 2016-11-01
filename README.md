@@ -10,14 +10,19 @@
 icesSLD
 ======
 
-icesSLD implements R functions that access the [web services](http://stocklist.ices.dk/Services/) of the [ICES (International Council for the Exploration of the Sea)](http://www.ices.dk/Pages/default.aspx) Stock List database.
+icesSLD provides R functions that access the
+[web services](http://stocklist.ices.dk/Services/) of the
+[ICES (International Council for the Exploration of the Sea)](http://www.ices.dk/Pages/default.aspx)
+Stock List database.
 
-icesSLD is implemented as an [R](https://www.r-project.org) package and available on [CRAN](https://cran.r-project.org/package=icesSLD).
+icesSLD is implemented as an [R](https://www.r-project.org) package and
+available on [CRAN](https://cran.r-project.org/package=icesSLD).
 
 Installation
 ------------
 
-icesSLD can be installed from GitHub using the `install_packages` command from the `devtools` package:
+icesSLD can be installed from GitHub using the `install_packages` command from
+the `devtools` package:
 
 ```R
 devtools::install_github('ices-tools-prod/icesSLD')
@@ -47,8 +52,11 @@ ICES software applications:
 Development
 -----------
 
-icesSLD is developed openly on [GitHub](https://github.com/ices-tools-prod/icesSLD).
-Feel free to open an [issue](https://github.com/ices-tools-prod/icesSLD/issues) there if you encounter problems or have suggestions for future versions.
+icesSLD is developed openly on
+[GitHub](https://github.com/ices-tools-prod/icesSLD).
+
+Feel free to open an [issue](https://github.com/ices-tools-prod/icesSLD/issues)
+there if you encounter problems or have suggestions for future versions.
 
 The current development version can be installed using:
 
