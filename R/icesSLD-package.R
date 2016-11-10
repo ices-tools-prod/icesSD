@@ -13,7 +13,8 @@
 #' @details
 #' \emph{Get dataset:}
 #' \tabular{ll}{
-#'   \code{\link{getSLD}} \tab stock list
+#'   \code{\link{getSLD}}    \tab full stock list\cr
+#'   \code{\link{showStock}} \tab one stock
 #' }
 #'
 #' @author Colin Millar, Scott Large, and Arni Magnusson.

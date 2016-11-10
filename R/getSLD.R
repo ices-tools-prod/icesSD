@@ -4,6 +4,8 @@
 #'
 #' @return A data frame.
 #'
+#' \code{\link{showStock}} shows stock list data for one stock.
+#'
 #' \code{\link{icesSLD-package}} gives an overview of the package.
 #'
 #' @examples

@@ -12,7 +12,8 @@ Council for the Exploration of the Sea) Stock List Database.
 \details{
 \emph{Get dataset:}
 \tabular{ll}{
-  \code{\link{getSLD}} \tab stock list
+  \code{\link{getSLD}}    \tab full stock list\cr
+  \code{\link{showStock}} \tab one stock
 }
 }
 \author{
