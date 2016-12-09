@@ -12,8 +12,7 @@ icesSLD
 
 icesSLD provides R functions that access the
 [web services](http://stocklist.ices.dk/Services/) of the
-[ICES (International Council for the Exploration of the Sea)](http://www.ices.dk/Pages/default.aspx)
-Stock List database.
+[ICES](http://www.ices.dk/Pages/default.aspx) Stock List Database.
 
 <!-- icesSLD is implemented as an [R](https://www.r-project.org) package and
 available on [CRAN](https://cran.r-project.org/package=icesSLD). -->
@@ -43,7 +42,7 @@ References
 
 ICES Stock List Database:
 
-[http://sld.ices.dk/](http://sld.ices.dk/)
+[http://sld.ices.dk](http://sld.ices.dk)
 
 Development
 -----------
