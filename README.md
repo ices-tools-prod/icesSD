@@ -11,7 +11,7 @@ icesSLD
 ======
 
 icesSLD provides R functions that access the
-[web services](http://stocklist.ices.dk/Services/) of the
+[web services](http://sld.ices.dk/Services/) of the
 [ICES](http://www.ices.dk/Pages/default.aspx) Stock List Database.
 
 <!-- icesSLD is implemented as an [R](https://www.r-project.org) package and
@@ -44,6 +44,10 @@ References
 ICES Stock List Database:
 
 [http://sld.ices.dk](http://sld.ices.dk)
+
+ICES Stock List Database web services:
+
+[http://sld.ices.dk/Services/](http://sld.ices.dk/Services/)
 
 Development
 -----------
