@@ -24,7 +24,8 @@ icesSLD can be installed from GitHub using the `install_packages` command from
 the `devtools` package:
 
 ```R
-devtools::install_github('ices-tools-prod/icesSLD')
+library(devtools)
+install_github("ices-tools-prod/icesSLD")
 ```
 
 Usage
@@ -56,5 +57,6 @@ there if you encounter problems or have suggestions for future versions.
 The current development version can be installed using:
 
 ```R
-devtools::install_github('ices-tools-prod/icesSLD')
+library(devtools)
+devtools::install_github("ices-tools-prod/icesSLD")
 ```
