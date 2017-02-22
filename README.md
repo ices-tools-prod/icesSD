@@ -20,8 +20,8 @@ available on [CRAN](https://cran.r-project.org/package=icesSLD). -->
 Installation
 ------------
 
-icesSLD can be installed from GitHub using the `install_packages` command from
-the `devtools` package:
+icesSLD can be installed from GitHub using the `install_github` command from the
+`devtools` package:
 
 ```R
 library(devtools)
@@ -58,9 +58,11 @@ icesSLD is developed openly on
 Feel free to open an [issue](https://github.com/ices-tools-prod/icesSLD/issues)
 there if you encounter problems or have suggestions for future versions.
 
+<!--
 The current development version can be installed using:
 
 ```R
 library(devtools)
-devtools::install_github("ices-tools-prod/icesSLD")
+install_github("ices-tools-prod/icesSLD")
 ```
+-->
