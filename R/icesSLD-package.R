@@ -4,11 +4,10 @@
 #'
 #' @aliases icesSLD
 #'
-#' @title Stock List Database Web Services
+#' @title Stock Database Web Services
 #'
 #' @description
-#' R interface to access the web services of the ICES (International
-#' Council for the Exploration of the Sea) Stock List Database.
+#' R interface to access the web services of the ICES Stock Database.
 #'
 #' @details
 #' \emph{Get dataset:}
@@ -21,5 +20,9 @@
 #'
 #' @references
 #' ICES Stock Database: \url{http://sd.ices.dk}.
+#'
+#' ICES Stock Database web services: \url{http://sd.ices.dk/services/}.
+
+
 
 NA

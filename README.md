@@ -10,8 +10,9 @@
 icesSLD
 =======
 
-icesSLD provides R functions that access the [ICES](http://ices.dk)
-[Stock Database](http://sd.ices.dk) [web services](http://sd.ices.dk/services/).
+icesSLD provides R functions that access the
+[web services](http://sd.ices.dk/services/) of the [ICES](http://ices.dk)
+[Stock Database](http://sd.ices.dk).
 
 <!-- icesSLD is implemented as an [R](https://www.r-project.org) package and
 available on [CRAN](https://cran.r-project.org/package=icesSLD). -->

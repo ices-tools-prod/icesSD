@@ -1,14 +1,14 @@
 Package: icesSLD
 Version: 1.0-0
 Date: 2016-11-10
-Title: Stock List Database Web Services
+Title: Stock Database Web Services
 Authors@R: c(person("Colin", "Millar", role="aut"),
              person("Scott", "Large", role=c("aut","cre"), email="scott.large@ices.dk"),
              person("Arni", "Magnusson", role="aut"))
 Imports: curl,
          jsonlite
 Suggests: testthat
-Description: R interface to access the web services of the ICES (International
-             Council for the Exploration of the Sea) Stock List Database.
+Description: R interface to access the web services of the ICES Stock Database.
 License: GPL (>= 2)
+URL: http://sd.ices.dk
 RoxygenNote: 6.0.1
