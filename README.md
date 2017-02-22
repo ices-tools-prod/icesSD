@@ -5,14 +5,13 @@
 [![CRAN Downloads](http://cranlogs.r-pkg.org/badges/grand-total/icesSLD)](https://cran.r-project.org/package=icesSLD)
 [![License](https://img.shields.io/badge/license-GPL%20(%3E%3D%202)-blue.svg)](https://www.gnu.org/licenses/gpl-3.0.en.html)
 
-[<img align="right" alt="ICES Logo" width="17%" height="17%" src="http://www.ices.dk/_layouts/15/1033/images/icesimg/iceslogo.png">](http://www.ices.dk/Pages/default.aspx)
+[<img align="right" alt="ICES Logo" width="17%" height="17%" src="http://ices.dk/_layouts/15/1033/images/icesimg/iceslogo.png">](http://ices.dk)
 
 icesSLD
-======
+=======
 
-icesSLD provides R functions that access the
-[web services](http://sld.ices.dk/Services/) of the
-[ICES](http://www.ices.dk/Pages/default.aspx) Stock List Database.
+icesSLD provides R functions that access the [ICES](http://ices.dk)
+[Stock Database](http://sd.ices.dk) [web services](http://sd.ices.dk/services/).
 
 <!-- icesSLD is implemented as an [R](https://www.r-project.org) package and
 available on [CRAN](https://cran.r-project.org/package=icesSLD). -->
@@ -41,11 +40,11 @@ library(icesSLD)
 References
 ----------
 
-ICES Stock List Database:
-[http://sld.ices.dk](http://sld.ices.dk)
+ICES Stock Database:
+http://sd.ices.dk
 
-ICES Stock List Database web services:
-[http://sld.ices.dk/Services/](http://sld.ices.dk/Services/)
+ICES Stock Database web services:
+http://sd.ices.dk/services/
 
 Development
 -----------
