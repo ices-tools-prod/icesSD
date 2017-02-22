@@ -10,7 +10,7 @@ parseSLD <- function(url) {
 
 checkSLDWebserviceOK <- function() {
   # return TRUE if web service is active, FALSE otherwise
-  out <- parseSLD("http://sld.ices.dk/services/odata4")
+  out <- parseSLD("http://sd.ices.dk/services/odata4")
 
   # check server is not down by inspecting JSON response for internal server error message
   if (grepl("404 - File or directory not found", out)) {
