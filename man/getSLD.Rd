@@ -20,4 +20,3 @@ Get stock list data such as stock code, expert group, assessment type, etc.
 sldata <- getSLD()
 
 }
-

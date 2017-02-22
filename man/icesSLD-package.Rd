@@ -2,8 +2,8 @@
 % Please edit documentation in R/icesSLD-package.R
 \docType{package}
 \name{icesSLD-package}
-\alias{icesSLD}
 \alias{icesSLD-package}
+\alias{icesSLD}
 \title{Stock List Database Web Services}
 \description{
 R interface to access the web services of the ICES (International
@@ -16,10 +16,9 @@ Council for the Exploration of the Sea) Stock List Database.
   \code{\link{showStock}} \tab one stock
 }
 }
-\author{
-Colin Millar, Scott Large, and Arni Magnusson.
-}
 \references{
 ICES Stock List Database: \url{http://sld.ices.dk/}.
 }
-
+\author{
+Colin Millar, Scott Large, and Arni Magnusson.
+}

@@ -31,4 +31,3 @@ showStock("sai-icel")
 cod.347d <- showStock("cod-347d", quiet=TRUE)
 
 }
-
