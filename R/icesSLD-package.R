@@ -20,6 +20,6 @@
 #' @author Colin Millar, Scott Large, and Arni Magnusson.
 #'
 #' @references
-#' ICES Stock List Database: \url{http://sld.ices.dk/}.
+#' ICES Stock Database: \url{http://sd.ices.dk}.
 
 NA
