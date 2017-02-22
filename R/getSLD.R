@@ -15,7 +15,7 @@
 
 getSLD <- function() {
   # read and parse JSON to data frame
-  url <- "http://sld.ices.dk/services/odata4/StockListDWs4"
+  url <- "http://sd.ices.dk/services/odata4/StockListDWs4"
   out <- parseSLD(url)
 
   out
