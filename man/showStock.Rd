@@ -18,9 +18,9 @@ most recent year available.}
 A single-row data frame, printed to screen with
 \code{print.simple.list} unless quiet is TRUE.
 
-\code{\link{getSLD}} gets all stock list data.
+\code{\link{getSD}} gets all stock list data.
 
-\code{\link{icesSLD-package}} gives an overview of the package.
+\code{\link{icesSD-package}} gives an overview of the package.
 }
 \description{
 Show stock list data for a given stock, such as expert group, advice group,

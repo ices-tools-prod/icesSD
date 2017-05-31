@@ -11,9 +11,9 @@
 #' @return A single-row data frame, printed to screen with
 #' \code{print.simple.list} unless quiet is TRUE.
 #'
-#' \code{\link{getSLD}} gets all stock list data.
+#' \code{\link{getSD}} gets all stock list data.
 #'
-#' \code{\link{icesSLD-package}} gives an overview of the package.
+#' \code{\link{icesSD-package}} gives an overview of the package.
 #'
 #' @examples
 #' showStock("sai-icel")
@@ -23,8 +23,8 @@
 
 showStock <- function(stock, year = NULL, quiet = FALSE)
 {
-  sldata <- getSLD()
-  out <- sldata[sldata$StockCode == stock,]
+  sddata <- getSLD()
+  out <- sddata[sddata$StockCode == stock,]
   if (is.null(year))
     year <- max(out$ActiveYear)
   out <- out[out$ActiveYear == year,]
