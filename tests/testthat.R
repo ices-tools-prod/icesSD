@@ -2,4 +2,4 @@
 library(testthat)
 
 ## test package
-test_check('icesSLD')
+test_check('icesSD')

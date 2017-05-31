@@ -23,7 +23,7 @@
 
 showStock <- function(stock, year = NULL, quiet = FALSE)
 {
-  sddata <- getSLD()
+  sddata <- getSD()
   out <- sddata[sddata$StockCode == stock,]
   if (is.null(year))
     year <- max(out$ActiveYear)

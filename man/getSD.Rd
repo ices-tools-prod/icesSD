@@ -17,6 +17,6 @@ A data frame.
 Get stock list data such as stock code, expert group, assessment type, etc.
 }
 \examples{
-sldata <- getSLD()
+sddata <- getSD()
 
 }
