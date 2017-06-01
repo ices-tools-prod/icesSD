@@ -6,17 +6,17 @@
 #'
 #' \code{\link{showStock}} shows stock list data for one stock.
 #'
-#' \code{\link{icesSLD-package}} gives an overview of the package.
+#' \code{\link{icesSD-package}} gives an overview of the package.
 #'
 #' @examples
-#' sldata <- getSLD()
+#' sddata <- getSD()
 #'
 #' @export
 
-getSLD <- function() {
+getSD <- function() {
   # read and parse JSON to data frame
   url <- "http://sd.ices.dk/services/odata4/StockListDWs4"
-  out <- parseSLD(url)
+  out <- parseSD(url)
 
   out
 }

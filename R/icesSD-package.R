@@ -1,8 +1,8 @@
 #' @docType package
 #'
-#' @name icesSLD-package
+#' @name icesSD-package
 #'
-#' @aliases icesSLD
+#' @aliases icesSD
 #'
 #' @title Stock Database Web Services
 #'
@@ -12,7 +12,7 @@
 #' @details
 #' \emph{Get dataset:}
 #' \tabular{ll}{
-#'   \code{\link{getSLD}}    \tab full stock list\cr
+#'   \code{\link{getSD}}    \tab full stock list\cr
 #'   \code{\link{showStock}} \tab one stock
 #' }
 #'
