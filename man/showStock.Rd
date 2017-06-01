@@ -4,15 +4,13 @@
 \alias{showStock}
 \title{Show Stock}
 \usage{
-showStock(stock, year = NULL, quiet = FALSE)
+showStock(stock = NULL, year = NULL)
 }
 \arguments{
 \item{stock}{the stock code, e.g. cod-347d.}
 
 \item{year}{the active year of the stock list, e.g. 2016, or NULL to get the
 most recent year available.}
-
-\item{quiet}{whether to suppress printing to screen.}
 }
 \value{
 A single-row data frame, printed to screen with
@@ -28,6 +26,6 @@ assessment type, etc.
 }
 \examples{
 showStock("sai-icel")
-cod.347d <- showStock("cod-347d", quiet=TRUE)
+cod.347d <- showStock("cod-347d")
 
 }
