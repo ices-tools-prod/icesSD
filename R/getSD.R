@@ -9,7 +9,7 @@
 #' \code{\link{icesSD-package}} gives an overview of the package.
 #'
 #' @examples
-#' sddata <- getSD()
+#' sdata <- getSD()
 #'
 #' @export
 
