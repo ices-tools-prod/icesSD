@@ -12,7 +12,7 @@
 #' @details
 #' \emph{Get dataset:}
 #' \tabular{ll}{
-#'   \code{\link{getSD}}    \tab full stock list\cr
+#'   \code{\link{getSD}}     \tab full stock list\cr
 #'   \code{\link{showStock}} \tab one stock
 #' }
 #'
@@ -22,7 +22,5 @@
 #' ICES Stock Database: \url{http://sd.ices.dk}.
 #'
 #' ICES Stock Database web services: \url{http://sd.ices.dk/services/}.
-
-
 
 NA

@@ -11,7 +11,7 @@ R interface to access the web services of the ICES Stock Database.
 \details{
 \emph{Get dataset:}
 \tabular{ll}{
-  \code{\link{getSD}}    \tab full stock list\cr
+  \code{\link{getSD}}     \tab full stock list\cr
   \code{\link{showStock}} \tab one stock
 }
 }
