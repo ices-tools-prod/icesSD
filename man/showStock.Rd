@@ -4,28 +4,33 @@
 \alias{showStock}
 \title{Show Stock}
 \usage{
-showStock(stock = NULL, year = NULL)
+showStock(stock, year = NULL)
 }
 \arguments{
-\item{stock}{the stock code, e.g. cod-347d.}
+\item{stock}{the stock code, e.g. \code{"cod-347d"}.}
 
-\item{year}{the active year of the stock list, e.g. 2016, or NULL to get the
-most recent year available.}
+\item{year}{the active year of the stock list, e.g. \code{2016}.}
 }
 \value{
-A single-row data frame, printed to screen with
-\code{print.simple.list} unless quiet is TRUE.
-
-\code{\link{getSD}} gets all stock list data.
-
-\code{\link{icesSD-package}} gives an overview of the package.
+A single-row data frame, shown on the screen with \code{print.simple.list}.
 }
 \description{
-Show stock list data for a given stock, such as expert group, advice group,
-assessment type, etc.
+Show stock list data for one stock, in a readable format.
+}
+\details{
+If \code{year = NULL} then the newest year is shown.
+}
+\note{
+The stock list data specify the expert group, advice group, assessment type,
+etc.
 }
 \examples{
 showStock("sai-icel")
-cod.347d <- showStock("cod-347d")
+showStock("cod-347d", 2016)
 
+}
+\seealso{
+\code{\link{getStock}} is the underlying function to get the stock list data.
+
+\code{\link{icesSD-package}} gives an overview of the package.
 }
