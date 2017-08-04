@@ -1,7 +1,7 @@
 [![Build Status](https://travis-ci.org/ices-tools-prod/icesSD.svg?branch=master)](https://travis-ci.org/ices-tools-prod/icesSD)
 [![codecov](https://codecov.io/gh/ices-tools-prod/icesSD/branch/master/graph/badge.svg)](https://codecov.io/gh/ices-tools-prod/icesSD)
 [![GitHub release](https://img.shields.io/github/release/ices-tools-prod/icesSD.svg?maxAge=2592000)]()
-[![CRAN Status](http://www.r-pkg.org/badges/version/icesSD)](https://cran.r-project.org/package=icesSD)
+[![CRAN Status](http://r-pkg.org/badges/version/icesSD)](https://cran.r-project.org/package=icesSD)
 [![CRAN Downloads](http://cranlogs.r-pkg.org/badges/grand-total/icesSD)](https://cran.r-project.org/package=icesSD)
 [![License](https://img.shields.io/badge/license-GPL%20(%3E%3D%202)-blue.svg)](https://www.gnu.org/licenses/gpl-3.0.en.html)
 
