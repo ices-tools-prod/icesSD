@@ -1,12 +1,9 @@
-<!-- NEWS.md is maintained by https://cynkra.github.io/fledge, do not edit -->
-
 # icesSD 2.0.0 (2022-02-17)
-
-- Same as previous version.
-
-
-# icesSD 1.1.0.9000 (2022-02-17)
 
 * update http calls to httr, add arguments year and stock to getSD()
 
+# icesSD 1.1-0 (2017-05-31)
+* Changed package name to reflect webpage and DB name change.
 
+# icesSLD 1.0-0 (2016-11-10)
+* Initial release, with two functions: getSLD() and showStock().
