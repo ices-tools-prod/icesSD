@@ -1,5 +1,5 @@
 Package: icesSD
-Version: 1.1.0
+Version: 1.1.0.9000
 Title: Stock Database Web Services
 Authors@R: c(person("Colin", "Millar", role=c("aut","cre"), email = "colin.millar@ices.dk"),
               person("Scott", "Large", role="aut"),
