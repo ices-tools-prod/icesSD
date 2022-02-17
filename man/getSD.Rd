@@ -4,12 +4,16 @@
 \alias{getSD}
 \title{Get Stock List Data}
 \usage{
-getSD()
+getSD(stock = NULL, year = NULL)
+}
+\arguments{
+\item{stock}{the stock code, e.g. cod.27.47d20.}
+
+\item{year}{the active year of the stock list, e.g. 2016, or NULL to get the
+most recent year available.}
 }
 \value{
 A data frame.
-
-\code{\link{showStock}} shows stock list data for one stock.
 
 \code{\link{icesSD-package}} gives an overview of the package.
 }
@@ -17,6 +21,10 @@ A data frame.
 Get stock list data such as stock code, expert group, assessment type, etc.
 }
 \examples{
+\donttest{
 sddata <- getSD()
-
+cod <- getSD(stock = "cod.27.47d20")
+cod22 <- getSD(stock = "cod.27.47d20", year = 2022)
+y2022 <- getSD(year = 2022)
+}
 }
