@@ -1,4 +1,4 @@
-#' Build a DATSU web service url
+#' Build a Stock Database (SD) web service url
 #'
 #' utility to build a url with optional query arguments
 #'

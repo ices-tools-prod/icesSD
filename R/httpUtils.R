@@ -18,5 +18,5 @@ sd_get <- function(url, retry = TRUE, quiet = FALSE, verbose = FALSE, content = 
 
 api_url <- function() {
   # make an option?
-  "http://sd.ices.dk/services"
+  "https://sd.ices.dk/services"
 }

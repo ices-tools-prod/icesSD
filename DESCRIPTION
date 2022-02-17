@@ -5,7 +5,6 @@ Authors@R: c(person("Colin", "Millar", role=c("aut","cre"), email = "colin.milla
               person("Scott", "Large", role="aut"),
               person("Arni", "Magnusson", role="aut"))
 Imports: icesConnect (>= 1.0.0),
-          jsonlite,
           httr
 Suggests: testthat
 Description: R interface to access the web services of the ICES Stock Database <https://sd.ices.dk>.

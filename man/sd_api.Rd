@@ -2,7 +2,7 @@
 % Please edit documentation in R/sd_api.R
 \name{sd_api}
 \alias{sd_api}
-\title{Build a DATSU web service url}
+\title{Build a Stock Database (SD) web service url}
 \usage{
 sd_api(service, ...)
 }
