@@ -2,12 +2,8 @@
 
 export(getSD)
 export(sd_api)
-importFrom(curl,curl)
-importFrom(curl,handle_setheaders)
-importFrom(curl,new_handle)
 importFrom(httr,GET)
 importFrom(httr,build_url)
 importFrom(httr,content)
 importFrom(httr,parse_url)
 importFrom(icesConnect,ices_get_jwt)
-importFrom(jsonlite,fromJSON)
