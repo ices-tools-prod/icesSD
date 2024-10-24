@@ -10,8 +10,7 @@
 #' @details
 #' \emph{Get dataset:}
 #' \tabular{ll}{
-#'   \code{\link{getSD}}    \tab full stock list\cr
-#'   \code{\link{getStock}} \tab selected stock(s) and year(s)
+#'   \code{\link{getSD}}    \tab full stock list, with filtering by stock and year\cr
 #' }
 #' \emph{Show on screen:}
 #' \tabular{ll}{
