@@ -18,4 +18,18 @@
 
 0 errors | 0 warnings | 1 note
 
-* This is a new release.
+* checking CRAN incoming feasibility ... NOTE
+Maintainer: 'Colin Millar <colin.millar@ices.dk>'
+
+New submission
+
+Package was archived on CRAN
+
+CRAN repository db overrides:
+  X-CRAN-Comment: Archived on 2024-07-16 for policy violation.
+
+
+* This package was archived due to \donttest examples relying on a web resource.
+  This web resource suffered a cyber attack at the same time as rundonttest checks
+  were being performed.
+  All examples relying on a web resource have been changed to \dontrun

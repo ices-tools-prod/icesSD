@@ -7,9 +7,9 @@
 showStock(stock, year = NULL)
 }
 \arguments{
-\item{stock}{the stock code, e.g. \code{"cod-347d"}.}
+\item{stock}{the stock code, e.g. \code{"cod.27.7a"}.}
 
-\item{year}{the active year of the stock list, e.g. \code{2016}.}
+\item{year}{the active year of the stock listing, e.g. \code{2024}.}
 }
 \value{
 A single-row data frame, shown on the screen with \code{print.simple.list}.
@@ -26,13 +26,13 @@ etc.
 }
 \examples{
 \dontrun{
-showStock("sai-icel")
-showStock("cod-347d", 2016)
+showStock("cod.27.7a", 2023)
+showStock("cod.27.7a", 2024)
 }
 
 }
 \seealso{
-\code{\link{getStock}} is the underlying function to get the stock list data.
+\code{\link{getSD}} is the underlying function to get the stock list data.
 
 \code{\link{icesSD-package}} gives an overview of the package.
 }

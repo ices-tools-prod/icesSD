@@ -2,8 +2,8 @@
 #'
 #' Show stock list data for one stock, in a readable format.
 #'
-#' @param stock the stock code, e.g. \code{"cod-347d"}.
-#' @param year the active year of the stock list, e.g. \code{2016}.
+#' @param stock the stock code, e.g. \code{"cod.27.7a"}.
+#' @param year the active year of the stock listing, e.g. \code{2024}.
 #'
 #' @details
 #' If \code{year = NULL} then the newest year is shown.
@@ -16,23 +16,22 @@
 #' etc.
 #'
 #' @seealso
-#' \code{\link{getStock}} is the underlying function to get the stock list data.
+#' \code{\link{getSD}} is the underlying function to get the stock list data.
 #'
 #' \code{\link{icesSD-package}} gives an overview of the package.
 #'
 #' @examples
 #' \dontrun{
-#' showStock("sai-icel")
-#' showStock("cod-347d", 2016)
+#' showStock("cod.27.7a", 2023)
+#' showStock("cod.27.7a", 2024)
 #' }
 #'
 #' @export
 
 showStock <- function(stock, year = NULL)
 {
-  out <- getStock(stock, year)
+  out <- getSD(stock = stock[1], year = year[1])
 
-  out <- out[out$StockKeyLabel == sort(out$StockKeyLabel)[1],]
   out <- out[out$ActiveYear == max(out$ActiveYear),]
 
   print.simple.list(out)

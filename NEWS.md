@@ -1,7 +1,7 @@
 ## icesSD 2.1.0 (2024-10-24)
 
-* Added functions getStock() and showStock().
-
+* Added functions showStock().
+* Made all example \dontrun in line with CRAN policy
 
 
 ## icesSD 2.0.0 (2022-02-17)
