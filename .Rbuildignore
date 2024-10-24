@@ -1,4 +1,7 @@
 README.md
+README.Rmd
+^README_files$
 ^cran-comments\.md$
-LICENSE
 ^CRAN-SUBMISSION$
+^CRAN-RELEASE$
+^LICENSE$
