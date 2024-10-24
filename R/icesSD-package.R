@@ -11,6 +11,11 @@
 #' \emph{Get dataset:}
 #' \tabular{ll}{
 #'   \code{\link{getSD}}    \tab full stock list\cr
+#'   \code{\link{getStock}} \tab selected stock(s) and year(s)
+#' }
+#' \emph{Show on screen:}
+#' \tabular{ll}{
+#'   \code{\link{showStock}} \tab one stock, in a readable format
 #' }
 #'
 #' @author Colin Millar, Scott Large, and Arni Magnusson.
