@@ -1,9 +1,17 @@
-# icesSD 2.0.0 (2022-02-17)
+## icesSD 2.1.0 (2024-10-24)
+
+* Added functions getStock() and showStock().
+
+
+
+## icesSD 2.0.0 (2022-02-17)
 
 * update http calls to httr, add arguments year and stock to getSD()
 
-# icesSD 1.1-0 (2017-05-31)
+## icesSD 1.1-0 (2017-05-31)
+
 * Changed package name to reflect webpage and DB name change.
 
-# icesSLD 1.0-0 (2016-11-10)
+## icesSLD 1.0-0 (2016-11-10)
+
 * Initial release, with two functions: getSLD() and showStock().
