@@ -25,8 +25,10 @@ The stock list data specify the expert group, advice group, assessment type,
 etc.
 }
 \examples{
+\dontrun{
 showStock("sai-icel")
 showStock("cod-347d", 2016)
+}
 
 }
 \seealso{

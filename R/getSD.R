@@ -11,7 +11,7 @@
 #' \code{\link{icesSD-package}} gives an overview of the package.
 #'
 #' @examples
-#' \donttest{
+#' \dontrun{
 #' sddata <- getSD()
 #' cod <- getSD(stock = "cod.27.47d20")
 #' cod22 <- getSD(stock = "cod.27.47d20", year = 2022)

@@ -20,9 +20,9 @@ R interface to access the web services of the ICES Stock Database.
 }
 }
 \references{
-ICES Stock Database: \url{http://sd.ices.dk}.
+ICES Stock Database: \url{https://sd.ices.dk}.
 
-ICES Stock Database web services: \url{http://sd.ices.dk/services/}.
+ICES Stock Database web services: \url{https://sd.ices.dk/services/}.
 }
 \seealso{
 Useful links:

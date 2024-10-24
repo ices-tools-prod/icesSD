@@ -21,8 +21,10 @@
 #' \code{\link{icesSD-package}} gives an overview of the package.
 #'
 #' @examples
+#' \dontrun{
 #' showStock("sai-icel")
 #' showStock("cod-347d", 2016)
+#' }
 #'
 #' @export
 

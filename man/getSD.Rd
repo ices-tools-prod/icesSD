@@ -21,7 +21,7 @@ A data frame.
 Get stock list data such as stock code, expert group, assessment type, etc.
 }
 \examples{
-\donttest{
+\dontrun{
 sddata <- getSD()
 cod <- getSD(stock = "cod.27.47d20")
 cod22 <- getSD(stock = "cod.27.47d20", year = 2022)
