@@ -1,5 +1,5 @@
 Package: icesSD
-Version: 2.0.0
+Version: 2.1.0
 Title: Stock Database Web Services
 Authors@R: c(person("Colin", "Millar", role=c("aut","cre"), email = "colin.millar@ices.dk"),
               person("Scott", "Large", role="aut"),
@@ -9,7 +9,8 @@ Imports: icesConnect (>= 1.0.0),
 Suggests: testthat
 Description: R interface to access the web services of the ICES Stock Database <https://sd.ices.dk>.
 License: GPL (>= 2)
-URL: https://sd.ices.dk, https://github.com/ices-tools-prod/icesDatsuQC
-BugReports: https://github.com/ices-tools-prod/icesDatsuQC/issues
+URL: https://sd.ices.dk, https://github.com/ices-tools-prod/icesSD
+BugReports: https://github.com/ices-tools-prod/icesSD/issues
 Encoding: UTF-8
-RoxygenNote: 7.1.2
+RoxygenNote: 7.3.2
+Language: en-GB

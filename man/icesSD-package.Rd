@@ -19,6 +19,15 @@ ICES Stock Database: \url{http://sd.ices.dk}.
 
 ICES Stock Database web services: \url{http://sd.ices.dk/services/}.
 }
+\seealso{
+Useful links:
+\itemize{
+  \item \url{https://sd.ices.dk}
+  \item \url{https://github.com/ices-tools-prod/icesSD}
+  \item Report bugs at \url{https://github.com/ices-tools-prod/icesSD/issues}
+}
+
+}
 \author{
 Colin Millar, Scott Large, and Arni Magnusson.
 }

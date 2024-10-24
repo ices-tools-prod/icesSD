@@ -1,5 +1,3 @@
-#' @docType package
-#'
 #' @name icesSD-package
 #'
 #' @aliases icesSD
@@ -18,8 +16,7 @@
 #' @author Colin Millar, Scott Large, and Arni Magnusson.
 #'
 #' @references
-#' ICES Stock Database: \url{http://sd.ices.dk}.
+#' ICES Stock Database: \url{https://sd.ices.dk}.
 #'
-#' ICES Stock Database web services: \url{http://sd.ices.dk/services/}.
-
-NA
+#' ICES Stock Database web services: \url{https://sd.ices.dk/services/}.
+"_PACKAGE"
